@@ -14,15 +14,18 @@ class BookRepo {
 private:
     std::vector<Book>(books);
 public:
+    /* @brief - destructor*/
     ~BookRepo();
 
-    /* return the string representation of the list of books*/
+    /* @brief - returns the string representation of the list of books*/
     std::string toString();
 
+    /* @brief - returns all books from the repository*/
     std::vector<Book> getAllBooks() {
         return this->books;
     }
 
+    /* @brief - checks for duplicate books in the database*/
     bool checkDuplicate(Book book);
 
     /*
@@ -31,9 +34,11 @@ public:
      * @return - true if successful, false otherwise*/
     bool addBook(Book &book);
 
-    bool deleteBook(std::string title, std::string author);
+    /* @brief - deletes a book from the database*/
+    bool deleteBook(const std::string& title, const std::string& author);
 
-    std::vector<Book> searchByGenre(std::string genre);
+    /* @brief - searched the repository by genre*/
+    std::vector<Book> searchByGenre(const std::string& genre);
     bool setAll(std::vector<Book> newBookDatabase);
 };
 

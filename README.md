@@ -20,5 +20,4 @@ Right now, this is what you can use the program for:
 As the program progresses, I hope to add the following features:
 * Graphical User Interface using Qt
 * Functionality for deleting books
-* Undo & redo functionality
 * Better command line interface

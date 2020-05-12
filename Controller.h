@@ -14,13 +14,13 @@
 class Controller {
 private:
     BookRepo ctrl;
-    std::stack <Book> undoStack, redoStack;
-    std::stack <int> operationListUndo, operationListRedo;
 public:
+    /* @brief - default destructor*/
     ~Controller();
 
     /* @brief - loads book database*/
-    void loadData();
+    void loadDatabase();
+    /* @brief - loads reading list*/
     void loadReadingList();
 
     /* @brief - displays all the books*/
@@ -36,14 +36,23 @@ public:
      * @return: returns true if the book was added, false otherwise*/
     bool addBook(std::string title, std::string author, std::string genre, int year, std::string description, std::string cover);
 
-    bool deleteBook(std::string title, std::string author);
+    /*
+     * @brief - adds a new book to the repository
+     * @param: title - title of the book
+     * @param: author - author of the book
+     * @return: true if the book was deleted, false otherwise*/
+    bool deleteBook(const std::string& title, const std::string& author);
 
-    void saveData();
+    /* @brief - saves changes to the book database*/
+    void saveDatabase();
 
+    /* @brief - saves changes to the reading list*/
     void saveReadingList();
 
-    std::vector<Book> displayByGenre(std::string genre);
+    /* @brief - displays books by genre*/
+    std::vector<Book> displayByGenre(const std::string& genre);
 
+    /* @brief - string representation of the database*/
     std::string toString();
 };
 
