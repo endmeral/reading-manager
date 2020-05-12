@@ -1,0 +1,84 @@
+{
+    "bookDatabase": [
+        {
+            "author": "Herman Melville",
+            "cover": "https://panmacmillanapi.blob.core.windows.net/pmapi/e12a8195-4610-4b2d-fa9f-08d58e45775c/editions/ed54b3ee-f49a-40eb-4148-08d5dd189b07/original_400_600.jpg",
+            "description": "In part, Moby-Dick is the story of an eerily compelling madman pursuing an unholy war against a creature as vast and dangerous and unknowable as the sea itself. But more than just a novel of adventure, more than an encyclopaedia of whaling lore and legend, the book can be seen as part of its author's lifelong meditation on America. Written with wonderfully redemptive humour, Moby-Dick is also a profound inquiry into character, faith, and the nature of perception.",
+            "genre": "classic",
+            "title": "Moby-Dick",
+            "year": 1851
+        },
+        {
+            "author": "Frank Herbert",
+            "cover": "https://nemira.ro/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/f/r/frank-herbert---seria-dune-1---dune---c1.jpg",
+            "description": "Set in the far future amidst a sprawling feudal interstellar empire where planetary dynasties are controlled by noble houses that owe an allegiance to the imperial House Corrino, Dune tells the story of young Paul Atreides (the heir apparent to Duke Leto Atreides and heir of House Atreides) as he and his family accept control of the desert planet Arrakis, the only source of the 'spice' melange, the most important and valuable substance in the cosmos.",
+            "genre": "sci-fi",
+            "title": "Dune",
+            "year": 1965
+        },
+        {
+            "author": "Isaac Asimov",
+            "cover": "https://s12emagst.akamaized.net/products/16231/16230632/images/res_5a22927e076d02891f7f1bd47c1cbdcd_full.jpg",
+            "description": "For twelve thousand years the Galactic Empire has ruled supreme. Now it is dying. But only Hari Seldon, creator of the revolutionary science of psychohistory, can see into the future -- to a dark age of ignorance, barbarism, and warfare that will last thirty thousand years. To preserve knowledge and save mankind, Seldon gathers the best minds in the Empire -- both scientists and scholars -- and brings them to a bleak planet at the edge of the Galaxy to serve as a beacon of hope for a future generations. He calls his sanctuary the Foundation.",
+            "genre": "sci-fi",
+            "title": "Foundation",
+            "year": 1951
+        },
+        {
+            "author": "J. R. R. Tolkien",
+            "cover": "https://prodimage.images-bn.com/pimages/9780544273443_p0_v2_s550x406.jpg",
+            "description": "In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell by chance into the hands of the hobbit Bilbo Baggins.",
+            "genre": "fantasy",
+            "title": "The Lord of the Rings",
+            "year": 1968
+        },
+        {
+            "author": "J. R. R. Tolkien",
+            "cover": "https://static.okian.ro/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/9/7/9780007523221.jpg",
+            "description": "The Silmarillion is the history of the rebellion of Fëanor and his kindred against the gods, their exile from Valinor and return to Middle-earth, and their war, hopeless despite all their heroism, against the great Enemy.",
+            "genre": "fantasy",
+            "title": "The Silmarillion",
+            "year": 1977
+        },
+        {
+            "author": "Leo Tolstoy",
+            "cover": "https://panmacmillanapi.blob.core.windows.net/pmapi/e12a8195-4610-4b2d-fa9f-08d58e45775c/editions/13eaf6f5-6002-46ac-c25e-08d5dd189c4a/original_400_600.jpg",
+            "description": "Anna is a sophisticated woman who abandons her empty existence as the wife of Karenin and turns to Count Vronsky to fulfil her passionate nature - with tragic consequences. Levin is a reflection of Tolstoy himself, often expressing the author's own views and convictions.",
+            "genre": "classic",
+            "title": "Anna Karenina",
+            "year": 1878
+        },
+        {
+            "author": "Fyodor Dostoyevsky",
+            "cover": "https://panmacmillanapi.blob.core.windows.net/pmapi/e12a8195-4610-4b2d-fa9f-08d58e45775c/editions/46718d3a-7a78-497f-851d-08d5dd189d60/original_400_600.jpg",
+            "description": "Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator, Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his neck. Only Sonya, a downtrodden prostitute, can offer the chance of redemption.",
+            "genre": "classic",
+            "title": "Crime and Punishment",
+            "year": 1866
+        },
+        {
+            "author": "Virginia Woolf",
+            "cover": "https://panmacmillanapi.blob.core.windows.net/pmapi/e12a8195-4610-4b2d-fa9f-08d58e45775c/editions/fe15e6aa-0194-42ef-d8cb-08d5dcd8c122/original_400_600.jpg",
+            "description": "Heralded as Virginia Woolf's greatest novel, this is a vivid portrait of a single day in a woman's life. When we meet her, Mrs. Clarissa Dalloway is preoccupied with the last-minute details of party preparation while in her mind she is something much more than a perfect society hostess. As she readies her house, she is flooded with remembrances of faraway times. And, met with the realities of the present, Clarissa reexamines the choices that brought her there, hesitantly looking ahead to the unfamiliar work of growing old.",
+            "genre": "classic",
+            "title": "Mrs. Dalloway",
+            "year": 1925
+        },
+        {
+            "author": "Yukio Mishima",
+            "cover": "https://static.okian.ro/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/9/7/9780241301197.jpg",
+            "description": "Confessions of a Mask tells the story of Kochan, an adolescent boy tormented by his burgeoning attraction to men: he wants to be “normal.” Kochan is meek-bodied, and unable to participate in the more athletic activities of his classmates. He begins to notice his growing attraction to some of the boys in his class, particularly the pubescent body of his friend Omi. To hide his homosexuality, he courts a woman, Sonoko, but this exacerbates his feelings for men. As news of the War reaches Tokyo, Kochan considers the fate of Japan and his place within its deeply rooted propriety.",
+            "genre": "modern",
+            "title": "Confessions of a Mask",
+            "year": 1949
+        },
+        {
+            "author": "Edward Gibbon",
+            "cover": "https://m.media-amazon.com/images/I/51s21i+0OsL.jpg",
+            "description": "The History of the Decline and Fall of the Roman Empire (sometimes shortened to Decline and Fall of the Roman Empire) is a book of history written by the English historian Edward Gibbon, which traces the trajectory of Western civilization (as well as the Islamic and Mongolian conquests) from the height of the Roman Empire to the fall of Byzantium. Published in six volumes, volume I was published in 1776 and went through six printings. Volumes II and III were published in 1781; volumes IV, V, and VI in 1788–89.",
+            "genre": "history",
+            "title": "The History of the Decline and Fall of the Roman Empire",
+            "year": 1789
+        }
+    ]
+}
