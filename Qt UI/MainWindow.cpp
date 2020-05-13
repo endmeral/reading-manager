@@ -38,9 +38,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     setCentralWidget(window);
 }
 
-MainWindow::~MainWindow() {
-    delete ui;
-}
+MainWindow::~MainWindow() = default;
 
 void MainWindow::AdminWindow() {
     auto AdminWindow = new class AdminWindow;
@@ -50,7 +48,6 @@ void MainWindow::AdminWindow() {
 
 void MainWindow::UserWindow() {
     auto UserWindow = new class UserWindow;
-    UserWindow->show();
     this->close();
 }
 

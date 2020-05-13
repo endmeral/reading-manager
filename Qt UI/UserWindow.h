@@ -20,8 +20,11 @@ public:
 
     ~UserWindow();
 
+    void showOptions();
+
 private:
     Ui::UserWindow *ui;
+    QWidget mainWidget;
 
 public slots:
     void MainWindow();

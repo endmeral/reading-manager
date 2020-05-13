@@ -31,9 +31,7 @@ AdminWindow::AdminWindow(QWidget *parent) : QMainWindow(parent) {
     setCentralWidget(window);
 }
 
-AdminWindow::~AdminWindow() {
-    delete ui;
-}
+AdminWindow::~AdminWindow() = default;
 
 void AdminWindow::MainWindow() {
     auto MainWindow = new class MainWindow;

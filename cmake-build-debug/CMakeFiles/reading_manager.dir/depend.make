@@ -56,17 +56,25 @@ CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.
 CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
 
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Book.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../BookRepo.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Controller.h
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Qt\ UI/MainWindow.h
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Qt\ UI/UserWindow.cpp
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Qt\ UI/UserWindow.h
-CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../UserInterface.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QFormLayout
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLabel
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QWidget
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
-CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qformlayout.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
 
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o: ../Book.h
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o: ../BookRepo.h

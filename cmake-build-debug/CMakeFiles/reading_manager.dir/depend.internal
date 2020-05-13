@@ -57,17 +57,25 @@ CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
 CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o
+ /Users/ovidiupopa/CLionProjects/reading-manager/Book.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
  /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
  /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.cpp
  /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h
- /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
+ /Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QFormLayout
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLabel
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QWidget
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
- /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qformlayout.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o
  /Users/ovidiupopa/CLionProjects/reading-manager/Book.h
  /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h

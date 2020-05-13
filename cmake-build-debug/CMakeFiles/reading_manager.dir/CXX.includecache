@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.h
-QMainWindow
+/Users/ovidiupopa/CLionProjects/reading-manager/Book.h
+string
 -
 
-/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.cpp
-QPushButton
+/Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
+vector
 -
-QHeaderView
+Book.h
+/Users/ovidiupopa/CLionProjects/reading-manager/Book.h
+
+/Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
+vector
 -
-MainWindow.h
-/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
-UserWindow.h
-/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h
-AdminWindow.h
-/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.h
-QVBoxLayout
+stack
 -
+BookRepo.h
+/Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
 
 /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
 QMainWindow
@@ -33,58 +33,40 @@ UserWindow.h
 /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h
 MainWindow.h
 /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
+../Controller.h
+/Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
+../Book.h
+/Users/ovidiupopa/CLionProjects/reading-manager/Book.h
+../UserInterface.h
+/Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.h
+vector
+-
+QLabel
+-
 QPushButton
 -
-QHeaderView
--
 QVBoxLayout
+-
+QWidget
+-
+QFormLayout
 -
 
 /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h
 QMainWindow
 -
 
-/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_AdminWindow.cpp
-memory
--
-../../../Qt UI/AdminWindow.h
-/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
+/Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.h
+Controller.h
+/Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
 
-/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_MainWindow.cpp
-memory
--
-../../../Qt UI/MainWindow.h
-/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QFormLayout
+qformlayout.h
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qformlayout.h
 
-/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_UserWindow.cpp
-memory
--
-../../../Qt UI/UserWindow.h
-/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/mocs_compilation.cpp
-V2TME335GI/moc_AdminWindow.cpp
-/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_AdminWindow.cpp
-V2TME335GI/moc_MainWindow.cpp
-/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_MainWindow.cpp
-V2TME335GI/moc_UserWindow.cpp
-/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_UserWindow.cpp
-
-/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
-qheaderview.h
-/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLabel
+qlabel.h
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
 
 /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
 qmainwindow.h
@@ -98,6 +80,10 @@ qpushbutton.h
 qboxlayout.h
 /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
 
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QWidget
+qwidget.h
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
+
 /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -108,10 +94,16 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qformlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
-QtWidgets/qabstractitemview.h
+QtWidgets/QLayout
+-
+
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
 -
 
 /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
@@ -126,5 +118,37 @@ QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
+-
+
+/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qobject.h
+-
+QtCore/qmargins.h
+-
+QtGui/qpaintdevice.h
+-
+QtGui/qpalette.h
+-
+QtGui/qfont.h
+-
+QtGui/qfontmetrics.h
+-
+QtGui/qfontinfo.h
+-
+QtWidgets/qsizepolicy.h
+-
+QtGui/qregion.h
+-
+QtGui/qbrush.h
+-
+QtGui/qcursor.h
+-
+QtGui/qkeysequence.h
+-
+QtGui/qevent.h
 -
 
