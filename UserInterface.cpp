@@ -31,8 +31,8 @@ int readInt()
 }
 
 void UserInterface::loadInitialData() {
-    ui.loadData();
-    to_read.loadReadingList();
+    database.loadDatabase();
+    reading_list.loadReadingList();
 }
 
 void UserInterface::printStartScreen() {
@@ -48,7 +48,7 @@ void UserInterface::printAdminOptions() {
     printf("\t1. Add book to database.\n");
     printf("\t2. Print all the books.\n\n");
     //printf("\t3. Update a book.\n");
-    //printf("\t4. Delete a book.\n\n");
+    printf("\t4. Delete a book.\n\n");
     printf("\t0. Return to start screen.\n");
     printf("OPTION: ");
     option = readInt();
@@ -61,13 +61,14 @@ void UserInterface::printAdminOptions() {
             addBook();
             break;
         case 2:
-            for (int i = 0; i < ui.displayAllBooks().getAllBooks().size(); ++i) {
-                std::cout << ui.displayAllBooks().getAllBooks()[i].toString();
+            for (int i = 0; i < database.displayAllBooks().getAllBooks().size(); ++i) {
+                std::cout << database.displayAllBooks().getAllBooks()[i].toString();
             }
             break;
         case 3:
             break;
         case 4:
+            deleteBook();
             break;
         default:
             printf("Invalid option");
@@ -88,7 +89,7 @@ void UserInterface::printUserOptions() {
             printf("Going back...\n");
             return;
         case 1:
-            this->printByGenre(&ui, &to_read);
+            this->printByGenre(&database, &reading_list);
             break;
         case 2:
             displayReadingList();
@@ -99,8 +100,8 @@ void UserInterface::printUserOptions() {
 }
 
 void UserInterface::displayReadingList() {
-    for (int i = 0; i < to_read.displayAllBooks().getAllBooks().size(); ++i) {
-        std::cout << to_read.displayAllBooks().getAllBooks()[i].toString();
+    for (int i = 0; i < reading_list.displayAllBooks().getAllBooks().size(); ++i) {
+        std::cout << reading_list.displayAllBooks().getAllBooks()[i].toString();
     }
 }
 
@@ -130,21 +131,35 @@ void UserInterface::addBook() {
     printf("\n");
 
     printf("Cover link: ");
-    std::cin.get();
+//    std::cin.get();
     getline(std::cin, cover);
     printf("\n");
 
-    if (ui.addBook(title, author, genre, year, description, cover) == 1)
+    if (database.addBook(title, author, genre, year, description, cover) == 1)
         std::cout << "Book added." << '\n';
 }
 
 void UserInterface::deleteBook() {
+    std::string title, author;
 
+    printf("Title: ");
+    std::cin.get();
+    getline(std::cin, title);
+
+    printf("Author: ");
+//    std::cin.get();
+    getline(std::cin, author);
+    std::cout << title << " " << author << '\n';
+    if(database.deleteBook(title, author) == 1) {
+        std::cout << "Book deleted." << '\n';
+    } else std::cout <<"Can't find the book" << '\n';
 }
 
 void UserInterface::updateBook() {
 
 }
+
+
 
 void UserInterface::printByGenre(Controller *database, Controller *reading_list) {
     bool ok = true;
@@ -199,14 +214,6 @@ void UserInterface::printByGenre(Controller *database, Controller *reading_list)
     }
 }
 
-void UserInterface::undo() {
-
-}
-
-void UserInterface::redo() {
-
-}
-
 void UserInterface::displayUI() {
     int option;
     this->loadInitialData();
@@ -220,8 +227,8 @@ void UserInterface::displayUI() {
             switch (option) {
                 case 0:
                     printf("Program terminated.");
-                    ui.saveData();
-                    to_read.saveReadingList();
+                    database.saveDatabase();
+                    reading_list.saveReadingList();
                     return;
                 case 1:
                     printUserOptions();

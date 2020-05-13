@@ -11,11 +11,11 @@
 
 class UserInterface {
 private:
-    Controller ui;
-    Controller to_read;
+    Controller database;
+    Controller reading_list;
 
     void loadInitialData();
-    void printStartScreen();
+    static void printStartScreen();
     void printAdminOptions();
     void printUserOptions();
     void printByGenre(Controller *database, Controller *reading_list);
@@ -23,8 +23,6 @@ private:
     void addBook();
     void deleteBook();
     void updateBook();
-    void undo();
-    void redo();
 
 public:
 

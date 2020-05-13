@@ -28,7 +28,7 @@ private:
 
 public:
     /* @brief - default constructor*/
-    Book(std::string ti = "", std::string au = "", std::string ge = "fiction", int y = 2020, std::string de = "", std::string co = "");
+    explicit Book(std::string ti = "", std::string au = "", std::string ge = "fiction", int y = 2020, std::string de = "", std::string co = "");
 
     /* @brief - copy constructor */
     Book(const Book& book);
@@ -46,7 +46,7 @@ public:
     std::string getGenre(){
         return this->genre;
     }
-    int getYear(){
+    int getYear() const{
         return this->year;
     }
     std::string getDescription(){
@@ -71,7 +71,7 @@ public:
      * @brief - compares two books
      * @param: other - the book to be compared with
      * @return - true if is books are the same, false otherwise*/
-    bool compare(Book other);
+    bool compare(const Book& other);
 };
 
 

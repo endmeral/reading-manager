@@ -13,7 +13,7 @@
 std::vector<Book> PersistenceEngineFromJSON::readJSON() {
     std::vector<Book>(database);
     Book book;
-    QFile file("/Users/ovidiupopa/CLionProjects/reading-manager/books.json");
+    QFile file("/Users/ovidiupopa/CLionProjects/reading-manager/database.json");
     file.open(QIODevice::ReadOnly | QIODevice::Text);
     QByteArray jsonData = file.readAll();
     file.close();
@@ -37,7 +37,7 @@ std::vector<Book> PersistenceEngineFromJSON::readJSON() {
 
 void PersistenceEngineFromJSON::writeToJSON(const std::vector<Book>& database) {
     QJsonArray array;
-    QFile file("/Users/ovidiupopa/CLionProjects/reading-manager/books.json");
+    QFile file("/Users/ovidiupopa/CLionProjects/reading-manager/database.json");
     foreach(Book i, database) {
         QJsonObject bookObject;
         bookObject["title"] = QString::fromStdString(i.getTitle());
