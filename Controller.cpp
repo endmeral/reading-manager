@@ -40,10 +40,9 @@ std::string Controller::toString() {
 }
 
 /* functionality for deleting books from the repositories*/
-bool Controller::deleteBook(const std::string& title, const std::string& author) {
-    return this->ctrl.deleteBook(title, author);
+bool Controller::deleteBook(std::string title, std::string author) {
+    return this->ctrl.deleteBook(std::move(title), std::move(author));
 }
-
 
 /* displays books by genre*/
 std::vector<Book> Controller::displayByGenre(const std::string& genre) {

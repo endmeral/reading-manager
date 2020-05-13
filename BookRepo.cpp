@@ -46,14 +46,22 @@ bool BookRepo::addBook(Book& book)
  * searches the repository for a book with a matching title & author
  * if such a book is found, the book is removed from the repo
  * otherwise, an exception is thrown, function returns false*/
-bool BookRepo::deleteBook(const std::string& title, const std::string& author) {
-    for (int i = 0; i < this->books.size(); i++)
-        if (this->books[i].getTitle() == title && this->books[i].getAuthor() == author )
-        {
-            this->books.erase(books.begin()+(i-1));
-            return true;
-        }
-    throw MyException("Non-existent book!");
+bool BookRepo::deleteBook(std::string title, std::string author) {
+    int it = searchBook(std::move(title), std::move(author));
+    if (it == this->books.size())
+        return false;
+    this->books.erase(this->books.begin()+it);
+    return true;
+}
+
+int BookRepo::searchBook(std::string title, std::string author) {
+    int it = 0;
+    while (it != this->books.size()){
+        if (this->books[it].getTitle() == title && this->books[it].getAuthor() == author)
+            return it;
+        it++;
+    }
+    return it;
 }
 
 /* searches the repository for books with the matching genre

@@ -41,7 +41,7 @@ public:
      * @param: title - title of the book
      * @param: author - author of the book
      * @return: true if the book was deleted, false otherwise*/
-    bool deleteBook(const std::string& title, const std::string& author);
+    bool deleteBook(std::string title, std::string author);
 
     /* @brief - saves changes to the book database*/
     void saveDatabase();

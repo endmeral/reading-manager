@@ -131,7 +131,7 @@ void UserInterface::addBook() {
     printf("\n");
 
     printf("Cover link: ");
-    std::cin.get();
+//    std::cin.get();
     getline(std::cin, cover);
     printf("\n");
 
@@ -147,15 +147,19 @@ void UserInterface::deleteBook() {
     getline(std::cin, title);
 
     printf("Author: ");
-    std::cin.get();
-    getline(std::cin, title);
-    if(database.deleteBook(title, author) == 1)
+//    std::cin.get();
+    getline(std::cin, author);
+    std::cout << title << " " << author << '\n';
+    if(database.deleteBook(title, author) == 1) {
         std::cout << "Book deleted." << '\n';
+    } else std::cout <<"Can't find the book" << '\n';
 }
 
 void UserInterface::updateBook() {
 
 }
+
+
 
 void UserInterface::printByGenre(Controller *database, Controller *reading_list) {
     bool ok = true;
