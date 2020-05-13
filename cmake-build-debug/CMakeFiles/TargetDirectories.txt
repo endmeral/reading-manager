@@ -1,3 +1,4 @@
 /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir
+/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager_autogen.dir

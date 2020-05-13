@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sd
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -iframework /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib -isystem /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers -isystem /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/./mkspecs/macx-clang 
+CXX_INCLUDES = -I/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/include -iframework /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib -isystem /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers -isystem /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/./mkspecs/macx-clang 
 

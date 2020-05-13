@@ -1,0 +1,133 @@
+{
+	"BUILD_DIR" : "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/ovidiupopa/CLionProjects/reading-manager",
+	"CMAKE_EXECUTABLE" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/Users/ovidiupopa/CLionProjects/reading-manager",
+	"HEADERS" : 
+	[
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Book.h",
+			"MU",
+			"EWIEGA46WW/moc_Book.cpp"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h",
+			"MU",
+			"EWIEGA46WW/moc_BookRepo.cpp"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Controller.h",
+			"MU",
+			"EWIEGA46WW/moc_Controller.cpp"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.h",
+			"MU",
+			"EWIEGA46WW/moc_PersistenceEngine.cpp"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.h",
+			"MU",
+			"V2TME335GI/moc_AdminWindow.cpp"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h",
+			"MU",
+			"V2TME335GI/moc_MainWindow.cpp"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h",
+			"MU",
+			"V2TME335GI/moc_UserWindow.cpp"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.h",
+			"MU",
+			"EWIEGA46WW/moc_UserInterface.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework",
+		"/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers",
+		"/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtGui.framework",
+		"/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtGui.framework/Headers",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework",
+		"/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers",
+		"/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/mkspecs/macx-clang",
+		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include",
+		"/Library/Developer/CommandLineTools/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/Users/ovidiupopa/CLionProjects/reading-manager/Book.cpp", "MU" ],
+		[ "/Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.cpp", "MU" ],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Controller.cpp",
+			"MU"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.cpp",
+			"MU"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.cpp",
+			"MU"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.cpp",
+			"MU"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.cpp",
+			"MU"
+		],
+		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.cpp",
+			"MU"
+		],
+		[ "/Users/ovidiupopa/CLionProjects/reading-manager/main.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

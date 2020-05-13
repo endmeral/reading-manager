@@ -47,6 +47,7 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/include"/>
 					<Add directory="/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework"/>
 					<Add directory="/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers"/>
 					<Add directory="/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtGui.framework"/>
@@ -79,6 +80,7 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/include"/>
 					<Add directory="/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework"/>
 					<Add directory="/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers"/>
 					<Add directory="/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtGui.framework"/>
@@ -96,6 +98,16 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 reading_manager/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reading_manager_autogen">
+				<Option working_dir="/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 reading_manager_autogen"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -126,10 +138,31 @@
 		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.h">
 			<Option target="reading_manager"/>
 		</Unit>
+		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.cpp">
+			<Option target="reading_manager"/>
+		</Unit>
+		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.h">
+			<Option target="reading_manager"/>
+		</Unit>
+		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.cpp">
+			<Option target="reading_manager"/>
+		</Unit>
+		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h">
+			<Option target="reading_manager"/>
+		</Unit>
+		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.cpp">
+			<Option target="reading_manager"/>
+		</Unit>
+		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h">
+			<Option target="reading_manager"/>
+		</Unit>
 		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.cpp">
 			<Option target="reading_manager"/>
 		</Unit>
 		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.h">
+			<Option target="reading_manager"/>
+		</Unit>
+		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/mocs_compilation.cpp">
 			<Option target="reading_manager"/>
 		</Unit>
 		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/main.cpp">

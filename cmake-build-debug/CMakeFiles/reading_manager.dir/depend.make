@@ -31,6 +31,43 @@ CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o: /Users/ovidiupopa/Qt5.14
 CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qjsonobject.h
 CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qstring.h
 
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: ../Qt\ UI/AdminWindow.cpp
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: ../Qt\ UI/AdminWindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: ../Qt\ UI/MainWindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: ../Qt\ UI/AdminWindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: ../Qt\ UI/MainWindow.cpp
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: ../Qt\ UI/MainWindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: ../Qt\ UI/UserWindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Qt\ UI/MainWindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Qt\ UI/UserWindow.cpp
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Qt\ UI/UserWindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o: ../Book.h
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o: ../BookRepo.h
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o: ../Controller.h
@@ -41,6 +78,21 @@ CMakeFiles/reading_manager.dir/main.cpp.o: ../Book.h
 CMakeFiles/reading_manager.dir/main.cpp.o: ../BookRepo.h
 CMakeFiles/reading_manager.dir/main.cpp.o: ../Controller.h
 CMakeFiles/reading_manager.dir/main.cpp.o: ../PersistenceEngine.h
+CMakeFiles/reading_manager.dir/main.cpp.o: ../Qt\ UI/MainWindow.h
 CMakeFiles/reading_manager.dir/main.cpp.o: ../UserInterface.h
 CMakeFiles/reading_manager.dir/main.cpp.o: ../main.cpp
+CMakeFiles/reading_manager.dir/main.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QApplication
+CMakeFiles/reading_manager.dir/main.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/reading_manager.dir/main.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
+CMakeFiles/reading_manager.dir/main.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: ../Qt\ UI/AdminWindow.h
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: ../Qt\ UI/MainWindow.h
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: ../Qt\ UI/UserWindow.h
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: reading_manager_autogen/V2TME335GI/moc_AdminWindow.cpp
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: reading_manager_autogen/V2TME335GI/moc_MainWindow.cpp
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: reading_manager_autogen/V2TME335GI/moc_UserWindow.cpp
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: reading_manager_autogen/mocs_compilation.cpp
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 

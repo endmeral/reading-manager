@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/BookRepo.cpp.o"
   "/Users/ovidiupopa/CLionProjects/reading-manager/Controller.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/Controller.cpp.o"
   "/Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o"
+  "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o"
+  "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o"
+  "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o"
   "/Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/UserInterface.cpp.o"
   "/Users/ovidiupopa/CLionProjects/reading-manager/main.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/main.cpp.o"
+  "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/mocs_compilation.cpp" "/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -22,6 +26,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "reading_manager_autogen/include"
   "/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework"
   "/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers"
   "/Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtGui.framework"
