@@ -46,8 +46,8 @@ void UserInterface::printAdminOptions() {
     int option;
     printf("Select an option:\n");
     printf("\t1. Add book to database.\n");
-    printf("\t2. Print all the books.\n\n");
-    //printf("\t3. Update a book.\n");
+    printf("\t2. Print all the books.\n");
+    printf("\t3. Update a book.\n");
     printf("\t4. Delete a book.\n\n");
     printf("\t0. Return to start screen.\n");
     printf("OPTION: ");
@@ -66,6 +66,7 @@ void UserInterface::printAdminOptions() {
             }
             break;
         case 3:
+            updateBook();
             break;
         case 4:
             deleteBook();
@@ -79,7 +80,8 @@ void UserInterface::printUserOptions() {
     int option;
     printf("Select an option:\n");
     printf("\t1. Search the database by genre.\n");
-    printf("\t2. See your to-read list.\n\n");
+    printf("\t2. See your to-read list.\n");
+    printf("\t3. Remove book from reading list.\n\n");
     printf("\t0. Return to start screen.\n");
     printf("OPTION: ");
     option = readInt();
@@ -94,6 +96,8 @@ void UserInterface::printUserOptions() {
         case 2:
             displayReadingList();
             break;
+        case 3:
+            deleteBookReadingList();
         default:
             printf("Invalid option.\n");
     }
@@ -147,7 +151,6 @@ void UserInterface::deleteBook() {
     getline(std::cin, title);
 
     printf("Author: ");
-//    std::cin.get();
     getline(std::cin, author);
     std::cout << title << " " << author << '\n';
     if(database.deleteBook(title, author) == 1) {
@@ -155,11 +158,59 @@ void UserInterface::deleteBook() {
     } else std::cout <<"Can't find the book" << '\n';
 }
 
-void UserInterface::updateBook() {
+void UserInterface::updateBook()
+{
+    std::string title, author, genre = "", description = "", cover = "";
+    int year = 0, option;
+    std::cout << "Give the title of the book you want to update: "; std::cin.get(); std::getline(std::cin, title); std::cout << "\n";
+    std::cout << "Give the author of the book you want to update: "; std::getline(std::cin, author); std::cout << "\n";
 
+    std::cout << "Do you want to update the genre? (0 - NO, 1 - YES): "; option = readInt();
+    while (option != 0 && option != 1) {
+        std::cout << "Please give a valid option!\n";
+        option = readInt();
+    }
+    if (option == 1) {
+        std::cout << "Give the genre: "; std::cin.get(); std::getline(std::cin, genre); std::cout << "\n";
+    }
+    else if (option == 0)
+        genre = ""; std::cout << "\n";
+
+    std::cout << "Do you want to update the description? (0 - NO, 1 - YES): "; option = readInt();
+    while (option != 0 && option != 1) {
+        std::cout << "Please give a valid option!\n";
+        option = readInt();
+    }
+    if (option == 1) {
+        std::cout << "Give the description: "; std::cin.get(); std::getline(std::cin, description); std::cout << "\n";
+    }
+    else if (option == 0)
+        genre = ""; std::cout << "\n";
+
+    std::cout << "Do you want to update the publication year? (0 - NO, 1 - YES): "; option = readInt();
+    while (option != 0 && option != 1) {
+        std::cout << "Please give a valid option!\n";
+        option = readInt();
+    }
+    if (option == 1) {
+        std::cout << "Give the publication year (valid years: greater than 0): "; year = readInt();
+    }
+    else if (option == 0)
+        genre = ""; std::cout << "\n";
+
+    std::cout << "Do you want to update the cover? (0 - NO, 1 - YES): "; option = readInt();
+    while (option != 0 && option != 1) {
+        std::cout << "Please give a valid option!\n";
+        option = readInt();
+    }
+    if (option == 1) {
+        std::cout << "Give the link for the cover: "; std::cin.get(); std::getline(std::cin, cover); std::cout << "\n";
+    }
+    else if (option == 0)
+        genre = ""; std::cout << "\n";
+
+    std::cout << this->database.updateBook(title, author, genre, description, year, cover);
 }
-
-
 
 void UserInterface::printByGenre(Controller *database, Controller *reading_list) {
     bool ok = true;
@@ -251,6 +302,21 @@ void UserInterface::displayUI() {
             printf("ERROR.\n\n");
         }
     } while (true);
+}
+
+void UserInterface::deleteBookReadingList() {
+    std::string title, author;
+
+    printf("Title: ");
+    std::cin.get();
+    getline(std::cin, title);
+
+    printf("Author: ");
+    getline(std::cin, author);
+    std::cout << title << " " << author << '\n';
+    if(reading_list.deleteBook(title, author) == 1) {
+        std::cout << "Book deleted." << '\n';
+    } else std::cout <<"Can't find the book" << '\n';
 }
 
 

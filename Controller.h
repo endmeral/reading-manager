@@ -52,6 +52,8 @@ public:
     /* @brief - displays books by genre*/
     std::vector<Book> displayByGenre(const std::string& genre);
 
+    bool updateBook(std::string title, std::string author, std::string genre, std::string description, int year, std::string cover);
+
     /* @brief - string representation of the database*/
     std::string toString();
 };

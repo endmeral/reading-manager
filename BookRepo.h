@@ -37,6 +37,8 @@ public:
     /* @brief - deletes a book from the database*/
     bool deleteBook(const std::string title, const std::string author);
 
+    bool updateBook(std::string title, std::string author, std::string genre, std::string description, int year, std::string cover);
+
     int searchBook(const std::string title, const std::string author);
 
     /* @brief - searched the repository by genre*/

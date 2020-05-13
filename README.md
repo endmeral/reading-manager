@@ -1,5 +1,5 @@
 # reading-manager 
-Version: Alpha 1.0
+Version: Alpha 1.1
 
 ### Description
 A C++ program for maintaining a book database.
@@ -19,5 +19,4 @@ Right now, this is what you can use the program for:
 ### Development Plans
 As the program progresses, I hope to add the following features:
 * Graphical User Interface using Qt
-* Functionality for deleting books
 * Better command line interface

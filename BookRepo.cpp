@@ -54,6 +54,24 @@ bool BookRepo::deleteBook(std::string title, std::string author) {
     return true;
 }
 
+bool BookRepo::updateBook(std::string title, std::string author, std::string genre, std::string description, int year, std::string cover)
+{
+    int it = searchBook(title, author);
+    if (it == this->books.size())
+        return false;
+    else {
+        if (genre != "")
+            this->books[it].setGenre(genre);
+        if (description != "")
+            this->books[it].setDescription(description);
+        if (year != 0)
+            this->books[it].setYear(year);
+        if (cover != "")
+            this->books[it].setCover(cover);
+    }
+    return true;
+}
+
 int BookRepo::searchBook(std::string title, std::string author) {
     int it = 0;
     while (it != this->books.size()){

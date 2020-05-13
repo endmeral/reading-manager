@@ -62,3 +62,6 @@ void Controller::saveReadingList() {
 
 }
 
+bool Controller::updateBook(std::string title, std::string author, std::string genre, std::string description, int year, std::string cover) {
+    return this->ctrl.updateBook(title, author, genre, description, year, cover);
+}

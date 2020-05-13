@@ -23,6 +23,7 @@ private:
     void addBook();
     void deleteBook();
     void updateBook();
+    void deleteBookReadingList();
 
 public:
 
