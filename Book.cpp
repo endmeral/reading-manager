@@ -12,9 +12,9 @@
 struct MyException : public std::exception
 {
     std::string s;
-    MyException(std::string ss) : s(ss) {}
-    ~MyException() throw () {} // Updated
-    const char* what() const throw() { return s.c_str(); }
+    explicit MyException(std::string ss) : s(ss) {}
+    ~MyException() noexcept {} // Updated
+    const char* what() const noexcept override { return s.c_str(); }
 };
 
 /* default constructor*/

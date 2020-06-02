@@ -28,9 +28,12 @@ BookRepo Controller::displayAllBooks() {
     return ctrl;
 }
 
+
+
 /* adds a new book to the controllers repositories*/
 bool Controller::addBook(std::string title, std::string author, std::string genre, int year, std::string description, std::string cover) {
     Book addedBook{ std::move(title), std::move(author), std::move(genre), year, std::move(description), std::move(cover)};
+    this->undoStack.push({addedBook, 1});
     return this->ctrl.addBook(addedBook);
 }
 
@@ -41,7 +44,8 @@ std::string Controller::toString() {
 
 /* functionality for deleting books from the repositories*/
 bool Controller::deleteBook(std::string title, std::string author) {
-    return this->ctrl.deleteBook(std::move(title), std::move(author));
+    Book book = this->ctrl.deleteBook(title, author);
+    this->undoStack.push({book, 2});
 }
 
 /* displays books by genre*/
@@ -64,4 +68,52 @@ void Controller::saveReadingList() {
 
 bool Controller::updateBook(std::string title, std::string author, std::string genre, std::string description, int year, std::string cover) {
     return this->ctrl.updateBook(title, author, genre, description, year, cover);
+}
+
+std::vector<Book> Controller::returnReadingList() {
+    return ctrl.getAllBooks();
+}
+
+bool Controller::undo() {
+    if(!undoStack.empty()) {
+        Book b = this->undoStack.top().first;
+        switch (this->undoStack.top().second) {
+            case 1:
+                //addition
+                this->ctrl.deleteBook(b.getTitle(), b.getAuthor());
+                this->redoStack.push({b, 1});
+                break;
+            case 2:
+                //deletion
+                this->ctrl.addBook(b);
+                this->redoStack.push({b, 2});
+                break;
+            default:
+                throw std::string("Impossible undo operation.");
+        }
+        this->undoStack.pop();
+        return true;
+    }
+    else throw std::string("There are no undo operations possible.");
+}
+
+bool Controller::redo() {
+    if (!redoStack.empty()) {
+        Book b = this->redoStack.top().first;
+        switch (this->redoStack.top().second) {
+            case 1:
+                this->ctrl.addBook(b);
+                this->undoStack.push({b, 1});
+                break;
+            case 2:
+                this->ctrl.deleteBook(b.getTitle(), b.getAuthor());
+                this->undoStack.push({b, 2});
+                break;
+            default:
+                throw std::string("Impossible redo operation.");
+        }
+        this->redoStack.pop();
+        return true;
+    }
+    else throw std::string("There are no redo operations possible");
 }

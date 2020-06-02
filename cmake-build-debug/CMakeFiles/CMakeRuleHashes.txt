@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+b3df6de2a9aa323f857c3e1118ada5c7 CMakeFiles/reading_manager_autogen

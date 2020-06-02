@@ -1,4 +1,20 @@
 {
     "readingList": [
+        {
+            "author": "Fyodor Dostoyevsky",
+            "cover": "https://panmacmillanapi.blob.core.windows.net/pmapi/e12a8195-4610-4b2d-fa9f-08d58e45775c/editions/46718d3a-7a78-497f-851d-08d5dd189d60/original_400_600.jpg",
+            "description": "Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator, Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his neck. Only Sonya, a downtrodden prostitute, can offer the chance of redemption.",
+            "genre": "classic",
+            "title": "Crime and Punishment",
+            "year": 1866
+        },
+        {
+            "author": "Virginia Woolf",
+            "cover": "https://panmacmillanapi.blob.core.windows.net/pmapi/e12a8195-4610-4b2d-fa9f-08d58e45775c/editions/fe15e6aa-0194-42ef-d8cb-08d5dcd8c122/original_400_600.jpg",
+            "description": "Heralded as Virginia Woolf's greatest novel, this is a vivid portrait of a single day in a woman's life. When we meet her, Mrs. Clarissa Dalloway is preoccupied with the last-minute details of party preparation while in her mind she is something much more than a perfect society hostess. As she readies her house, she is flooded with remembrances of faraway times. And, met with the realities of the present, Clarissa reexamines the choices that brought her there, hesitantly looking ahead to the unfamiliar work of growing old.",
+            "genre": "classic",
+            "title": "Mrs. Dalloway",
+            "year": 1925
+        }
     ]
 }

@@ -57,9 +57,22 @@ include CMakeFiles/reading_manager.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/reading_manager.dir/flags.make
 
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: CMakeFiles/reading_manager.dir/flags.make
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o: reading_manager_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o -c /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/mocs_compilation.cpp
+
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/mocs_compilation.cpp > CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/mocs_compilation.cpp -o CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/reading_manager.dir/main.cpp.o: CMakeFiles/reading_manager.dir/flags.make
 CMakeFiles/reading_manager.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/reading_manager.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/reading_manager.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/main.cpp.o -c /Users/ovidiupopa/CLionProjects/reading-manager/main.cpp
 
 CMakeFiles/reading_manager.dir/main.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/reading_manager.dir/main.cpp.s: cmake_force
 
 CMakeFiles/reading_manager.dir/Book.cpp.o: CMakeFiles/reading_manager.dir/flags.make
 CMakeFiles/reading_manager.dir/Book.cpp.o: ../Book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/reading_manager.dir/Book.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/reading_manager.dir/Book.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/Book.cpp.o -c /Users/ovidiupopa/CLionProjects/reading-manager/Book.cpp
 
 CMakeFiles/reading_manager.dir/Book.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/reading_manager.dir/Book.cpp.s: cmake_force
 
 CMakeFiles/reading_manager.dir/BookRepo.cpp.o: CMakeFiles/reading_manager.dir/flags.make
 CMakeFiles/reading_manager.dir/BookRepo.cpp.o: ../BookRepo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/reading_manager.dir/BookRepo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/reading_manager.dir/BookRepo.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/BookRepo.cpp.o -c /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.cpp
 
 CMakeFiles/reading_manager.dir/BookRepo.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/reading_manager.dir/BookRepo.cpp.s: cmake_force
 
 CMakeFiles/reading_manager.dir/Controller.cpp.o: CMakeFiles/reading_manager.dir/flags.make
 CMakeFiles/reading_manager.dir/Controller.cpp.o: ../Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/reading_manager.dir/Controller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/reading_manager.dir/Controller.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/Controller.cpp.o -c /Users/ovidiupopa/CLionProjects/reading-manager/Controller.cpp
 
 CMakeFiles/reading_manager.dir/Controller.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/reading_manager.dir/Controller.cpp.s: cmake_force
 
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o: CMakeFiles/reading_manager.dir/flags.make
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o: ../UserInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/reading_manager.dir/UserInterface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/reading_manager.dir/UserInterface.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/UserInterface.cpp.o -c /Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.cpp
 
 CMakeFiles/reading_manager.dir/UserInterface.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/reading_manager.dir/UserInterface.cpp.s: cmake_force
 
 CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o: CMakeFiles/reading_manager.dir/flags.make
 CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o: ../PersistenceEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o -c /Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.cpp
 
 CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.i: cmake_force
@@ -135,30 +148,77 @@ CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.cpp -o CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.s
 
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: CMakeFiles/reading_manager.dir/flags.make
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o: ../Qt\ UI/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o -c "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.cpp"
+
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.cpp" > CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.i
+
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.cpp" -o CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.s
+
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: CMakeFiles/reading_manager.dir/flags.make
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o: ../Qt\ UI/AdminWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o -c "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.cpp"
+
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.cpp" > CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.i
+
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.cpp" -o CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.s
+
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: CMakeFiles/reading_manager.dir/flags.make
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o: ../Qt\ UI/UserWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o -c "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.cpp"
+
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.cpp" > CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.i
+
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.cpp" -o CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.s
+
 # Object files for target reading_manager
 reading_manager_OBJECTS = \
+"CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/reading_manager.dir/main.cpp.o" \
 "CMakeFiles/reading_manager.dir/Book.cpp.o" \
 "CMakeFiles/reading_manager.dir/BookRepo.cpp.o" \
 "CMakeFiles/reading_manager.dir/Controller.cpp.o" \
 "CMakeFiles/reading_manager.dir/UserInterface.cpp.o" \
-"CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o"
+"CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o" \
+"CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o" \
+"CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o" \
+"CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o"
 
 # External object files for target reading_manager
 reading_manager_EXTERNAL_OBJECTS =
 
+reading_manager: CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o
 reading_manager: CMakeFiles/reading_manager.dir/main.cpp.o
 reading_manager: CMakeFiles/reading_manager.dir/Book.cpp.o
 reading_manager: CMakeFiles/reading_manager.dir/BookRepo.cpp.o
 reading_manager: CMakeFiles/reading_manager.dir/Controller.cpp.o
 reading_manager: CMakeFiles/reading_manager.dir/UserInterface.cpp.o
 reading_manager: CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o
+reading_manager: CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o
+reading_manager: CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o
+reading_manager: CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o
 reading_manager: CMakeFiles/reading_manager.dir/build.make
 reading_manager: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/QtWidgets
 reading_manager: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtGui.framework/QtGui
 reading_manager: /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/QtCore
 reading_manager: CMakeFiles/reading_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable reading_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable reading_manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reading_manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

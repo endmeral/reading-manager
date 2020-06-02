@@ -31,6 +31,89 @@ CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.o
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qjsondocument.h
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qjsonobject.h
  /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qstring.h
+CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o
+ /Users/ovidiupopa/CLionProjects/reading-manager/Book.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.cpp
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qobject.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QFileDialog
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLabel
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QShortcut
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QTableWidget
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qfiledialog.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qshortcut.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qtablewidget.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
+CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o
+ /Users/ovidiupopa/CLionProjects/reading-manager/Book.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.cpp
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qobject.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLabel
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QTableWidget
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qtablewidget.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
+CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o
+ /Users/ovidiupopa/CLionProjects/reading-manager/Book.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.cpp
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qobject.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QFormLayout
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QHeaderView
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLabel
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QTableWidget
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qformlayout.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qheaderview.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qtablewidget.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
 CMakeFiles/reading_manager.dir/UserInterface.cpp.o
  /Users/ovidiupopa/CLionProjects/reading-manager/Book.h
  /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
@@ -42,5 +125,33 @@ CMakeFiles/reading_manager.dir/main.cpp.o
  /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
  /Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
  /Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
  /Users/ovidiupopa/CLionProjects/reading-manager/UserInterface.h
  /Users/ovidiupopa/CLionProjects/reading-manager/main.cpp
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QApplication
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o
+ /Users/ovidiupopa/CLionProjects/reading-manager/Book.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/BookRepo.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Controller.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/AdminWindow.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/MainWindow.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/Qt UI/UserWindow.h
+ /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_AdminWindow.cpp
+ /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_MainWindow.cpp
+ /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/V2TME335GI/moc_UserWindow.cpp
+ /Users/ovidiupopa/CLionProjects/reading-manager/cmake-build-debug/reading_manager_autogen/mocs_compilation.cpp
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtCore.framework/Headers/qobject.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLineEdit
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QTableWidget
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qtablewidget.h
+ /Users/ovidiupopa/Qt5.14.2/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qwidget.h

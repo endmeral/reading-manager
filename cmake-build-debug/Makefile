@@ -123,6 +123,19 @@ reading_manager/fast:
 	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/build
 .PHONY : reading_manager/fast
 
+#=============================================================================
+# Target rules for targets named reading_manager_autogen
+
+# Build rule for target.
+reading_manager_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reading_manager_autogen
+.PHONY : reading_manager_autogen
+
+# fast build rule for target.
+reading_manager_autogen/fast:
+	$(MAKE) -f CMakeFiles/reading_manager_autogen.dir/build.make CMakeFiles/reading_manager_autogen.dir/build
+.PHONY : reading_manager_autogen/fast
+
 Book.o: Book.cpp.o
 
 .PHONY : Book.o
@@ -231,6 +244,87 @@ PersistenceEngine.cpp.s:
 	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/PersistenceEngine.cpp.s
 .PHONY : PersistenceEngine.cpp.s
 
+Qt_UI/AdminWindow.o: Qt_UI/AdminWindow.cpp.o
+
+.PHONY : Qt_UI/AdminWindow.o
+
+# target to build an object file
+Qt_UI/AdminWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.o
+.PHONY : Qt_UI/AdminWindow.cpp.o
+
+Qt_UI/AdminWindow.i: Qt_UI/AdminWindow.cpp.i
+
+.PHONY : Qt_UI/AdminWindow.i
+
+# target to preprocess a source file
+Qt_UI/AdminWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.i
+.PHONY : Qt_UI/AdminWindow.cpp.i
+
+Qt_UI/AdminWindow.s: Qt_UI/AdminWindow.cpp.s
+
+.PHONY : Qt_UI/AdminWindow.s
+
+# target to generate assembly for a file
+Qt_UI/AdminWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/AdminWindow.cpp.s
+.PHONY : Qt_UI/AdminWindow.cpp.s
+
+Qt_UI/MainWindow.o: Qt_UI/MainWindow.cpp.o
+
+.PHONY : Qt_UI/MainWindow.o
+
+# target to build an object file
+Qt_UI/MainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.o
+.PHONY : Qt_UI/MainWindow.cpp.o
+
+Qt_UI/MainWindow.i: Qt_UI/MainWindow.cpp.i
+
+.PHONY : Qt_UI/MainWindow.i
+
+# target to preprocess a source file
+Qt_UI/MainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.i
+.PHONY : Qt_UI/MainWindow.cpp.i
+
+Qt_UI/MainWindow.s: Qt_UI/MainWindow.cpp.s
+
+.PHONY : Qt_UI/MainWindow.s
+
+# target to generate assembly for a file
+Qt_UI/MainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/MainWindow.cpp.s
+.PHONY : Qt_UI/MainWindow.cpp.s
+
+Qt_UI/UserWindow.o: Qt_UI/UserWindow.cpp.o
+
+.PHONY : Qt_UI/UserWindow.o
+
+# target to build an object file
+Qt_UI/UserWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.o
+.PHONY : Qt_UI/UserWindow.cpp.o
+
+Qt_UI/UserWindow.i: Qt_UI/UserWindow.cpp.i
+
+.PHONY : Qt_UI/UserWindow.i
+
+# target to preprocess a source file
+Qt_UI/UserWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.i
+.PHONY : Qt_UI/UserWindow.cpp.i
+
+Qt_UI/UserWindow.s: Qt_UI/UserWindow.cpp.s
+
+.PHONY : Qt_UI/UserWindow.s
+
+# target to generate assembly for a file
+Qt_UI/UserWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/Qt_UI/UserWindow.cpp.s
+.PHONY : Qt_UI/UserWindow.cpp.s
+
 UserInterface.o: UserInterface.cpp.o
 
 .PHONY : UserInterface.o
@@ -285,6 +379,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+reading_manager_autogen/mocs_compilation.o: reading_manager_autogen/mocs_compilation.cpp.o
+
+.PHONY : reading_manager_autogen/mocs_compilation.o
+
+# target to build an object file
+reading_manager_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.o
+.PHONY : reading_manager_autogen/mocs_compilation.cpp.o
+
+reading_manager_autogen/mocs_compilation.i: reading_manager_autogen/mocs_compilation.cpp.i
+
+.PHONY : reading_manager_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+reading_manager_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.i
+.PHONY : reading_manager_autogen/mocs_compilation.cpp.i
+
+reading_manager_autogen/mocs_compilation.s: reading_manager_autogen/mocs_compilation.cpp.s
+
+.PHONY : reading_manager_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+reading_manager_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/reading_manager.dir/build.make CMakeFiles/reading_manager.dir/reading_manager_autogen/mocs_compilation.cpp.s
+.PHONY : reading_manager_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -294,6 +415,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... reading_manager"
+	@echo "... reading_manager_autogen"
 	@echo "... Book.o"
 	@echo "... Book.i"
 	@echo "... Book.s"
@@ -306,12 +428,24 @@ help:
 	@echo "... PersistenceEngine.o"
 	@echo "... PersistenceEngine.i"
 	@echo "... PersistenceEngine.s"
+	@echo "... Qt_UI/AdminWindow.o"
+	@echo "... Qt_UI/AdminWindow.i"
+	@echo "... Qt_UI/AdminWindow.s"
+	@echo "... Qt_UI/MainWindow.o"
+	@echo "... Qt_UI/MainWindow.i"
+	@echo "... Qt_UI/MainWindow.s"
+	@echo "... Qt_UI/UserWindow.o"
+	@echo "... Qt_UI/UserWindow.i"
+	@echo "... Qt_UI/UserWindow.s"
 	@echo "... UserInterface.o"
 	@echo "... UserInterface.i"
 	@echo "... UserInterface.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... reading_manager_autogen/mocs_compilation.o"
+	@echo "... reading_manager_autogen/mocs_compilation.i"
+	@echo "... reading_manager_autogen/mocs_compilation.s"
 .PHONY : help
 
 
