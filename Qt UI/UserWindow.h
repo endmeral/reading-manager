@@ -7,10 +7,12 @@
 
 
 #include <QMainWindow>
-
-QT_BEGIN_NAMESPACE
-namespace Ui { class UserWindow; }
-QT_END_NAMESPACE
+#include <QLineEdit>
+#include <QObject>
+#include <QWidget>
+#include <QTableWidget>
+#include "../Controller.h"
+#include <QPushButton>
 
 class UserWindow  : public QMainWindow {
 Q_OBJECT
@@ -20,16 +22,33 @@ public:
 
     ~UserWindow();
 
-    void showOptions();
-
 private:
-    Ui::UserWindow *ui;
-    QWidget mainWidget;
+    Controller readingListController;
+    Controller databaseController;
+
+    QTableWidget* databaseTableWidget;
+    QTableWidget* readingListTableWidget;
+
+    QLineEdit* genreForFilter;
+
+    QWidget* createCentralWidget();
+    void createDatabaseTableWidget();
+    void createReadingListTableWidget();
+    QWidget* createFilterByGenreWidget();
+    QWidget* createDatabaseAndToListenWidget();
+
 
 public slots:
-    void MainWindow();
-    void DatabaseWindow();
-    void ReadingListWindow();
+    void populateDatabase();
+    void populateReadingList();
+
+    void addBookButtonPressed();
+    void deleteBookButtonPressed();
+
+
+    void addBook(int);
+    void deleteBook(int);
+
 };
 
 

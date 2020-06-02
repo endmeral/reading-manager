@@ -14,10 +14,9 @@ int main(int argc, char *argv[])
      * */
     QApplication a(argc, argv);
     MainWindow w;
-    w.show();
 
     /*
-     * ... and uncomment these
+     * ... uncomment these and change return value to 0
      * */
 //    UserInterface UI;
 //    UI.displayUI();

@@ -30,7 +30,7 @@ std::vector<Book> PersistenceEngineFromJSON::readJSON() {
         book.setCover(v.toObject().value("cover").toString().toUtf8().constData());
         database.push_back(book);
     }
-    printf("Reading list is loaded.\n");
+    printf("Database is loaded.\n");
     return database;
 }
 
@@ -97,5 +97,6 @@ std::vector<Book> PersistenceEngineFromJSON::readReadingList() {
         book.setCover(v.toObject().value("cover").toString().toUtf8().constData());
         readinglist.push_back(book);
     }
+    printf("Reading list is loaded.\n");
     return readinglist;
 }

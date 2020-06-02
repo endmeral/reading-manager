@@ -14,6 +14,7 @@
 class Controller {
 private:
     BookRepo ctrl;
+    std::stack<std::pair<Book, int>> undoStack, redoStack; // 1- add, 2 - delete, 3 - update
 public:
     /* @brief - default destructor*/
     ~Controller();
@@ -52,10 +53,15 @@ public:
     /* @brief - displays books by genre*/
     std::vector<Book> displayByGenre(const std::string& genre);
 
+    std::vector<Book> returnReadingList();
+
     bool updateBook(std::string title, std::string author, std::string genre, std::string description, int year, std::string cover);
 
     /* @brief - string representation of the database*/
     std::string toString();
+
+    bool undo();
+    bool redo();
 };
 
 

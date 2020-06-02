@@ -35,11 +35,11 @@ public:
     bool addBook(Book &book);
 
     /* @brief - deletes a book from the database*/
-    bool deleteBook(const std::string title, const std::string author);
+    Book deleteBook(std::string title, std::string author);
 
     bool updateBook(std::string title, std::string author, std::string genre, std::string description, int year, std::string cover);
 
-    int searchBook(const std::string title, const std::string author);
+    int searchBook(std::string title, std::string author);
 
     /* @brief - searched the repository by genre*/
     std::vector<Book> searchByGenre(const std::string& genre);

@@ -132,6 +132,9 @@
 		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/Controller.h">
 			<Option target="reading_manager"/>
 		</Unit>
+		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/CustomExceptions.h">
+			<Option target="reading_manager"/>
+		</Unit>
 		<Unit filename="/Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.cpp">
 			<Option target="reading_manager"/>
 		</Unit>

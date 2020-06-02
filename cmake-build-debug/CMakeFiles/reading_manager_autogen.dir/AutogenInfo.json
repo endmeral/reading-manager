@@ -23,6 +23,11 @@
 			"EWIEGA46WW/moc_Controller.cpp"
 		],
 		[
+			"/Users/ovidiupopa/CLionProjects/reading-manager/CustomExceptions.h",
+			"MU",
+			"EWIEGA46WW/moc_CustomExceptions.cpp"
+		],
+		[
 			"/Users/ovidiupopa/CLionProjects/reading-manager/PersistenceEngine.h",
 			"MU",
 			"EWIEGA46WW/moc_PersistenceEngine.cpp"

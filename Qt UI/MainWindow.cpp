@@ -9,45 +9,55 @@
 #include "UserWindow.h"
 #include "AdminWindow.h"
 #include <QVBoxLayout>
+#include <QLabel>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 
+    this->showOptions();
+    mainWidget.show();
 
-    setWindowTitle("Select Client Mode");
-//    setMinimumSize(400, 300);
+}
 
+void MainWindow::showOptions() {
+
+    auto *layout = new QVBoxLayout;
+    auto title = new QLabel("Program Options:");
     auto u_button = new QPushButton("User", this);
-//    u_button->setGeometry(10, 10, 120, 50);
-
     auto a_button = new QPushButton("Administrator", this);
-//    a_button->setGeometry(10, 70, 120, 50);
 
     connect(a_button, SIGNAL(clicked()), this, SLOT(AdminWindow()));
     connect(u_button, SIGNAL(clicked()), this, SLOT(UserWindow()));
 
     // Set layout
-    auto *layout = new QVBoxLayout;
+    mainWidget.setWindowTitle("Select Client Mode");
+    layout->addWidget(title);
     layout->addWidget(u_button);
     layout->addWidget(a_button);
 
-    // Set layout in QWidget
-    auto *window = new QWidget();
-    window->setLayout(layout);
-
-    // Set QWidget as the central layout of the main window
-    setCentralWidget(window);
+    if (this->mainWidget.layout() != nullptr) {
+        QLayoutItem *item;
+        while ((item = this->mainWidget.layout()->takeAt(0)) != nullptr) {
+            delete item->widget();
+            delete item;
+        }
+        delete this->mainWidget.layout();
+    }
+    this->mainWidget.setLayout(layout);
 }
 
 MainWindow::~MainWindow() = default;
 
 void MainWindow::AdminWindow() {
-    auto AdminWindow = new class AdminWindow;
-    AdminWindow->show();
+    auto admin = new class AdminWindow;
+    admin->show();
+
     this->close();
 }
 
 void MainWindow::UserWindow() {
-    auto UserWindow = new class UserWindow;
+    auto user = new class UserWindow;
+
+    user->show();
     this->close();
 }
 

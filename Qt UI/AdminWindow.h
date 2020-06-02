@@ -5,12 +5,12 @@
 #ifndef READING_MANAGER_ADMINWINDOW_H
 #define READING_MANAGER_ADMINWINDOW_H
 
-
 #include <QMainWindow>
-
-QT_BEGIN_NAMESPACE
-namespace Ui { class AdminWindow; }
-QT_END_NAMESPACE
+#include <QObject>
+#include <QWidget>
+#include <QLineEdit>
+#include <QTableWidget>
+#include"../Controller.h"
 
 class AdminWindow  : public QMainWindow {
 Q_OBJECT
@@ -20,11 +20,35 @@ public:
 
     ~AdminWindow();
 
-private:
-    Ui::AdminWindow *ui;
-
+signals:
 public slots:
-    void MainWindow();
+    void searchPersistenceFile();
+    void populateDatabaseFromFile();
+    void populateDatabase();
+    void addBook();
+    void deleteBook();
+    void updateBook();
+    void cellClicked(int);
+    void undo();
+    void redo();
+
+private:
+    Controller databaseController;
+
+    QLineEdit* m_persistenceFileName;
+    QLineEdit* m_title;
+    QLineEdit* m_author;
+    QLineEdit* m_genre;
+    QLineEdit* m_description;
+    QLineEdit* m_publication_year;
+    QLineEdit* m_cover;
+
+    QTableWidget* m_repoTableWidget;
+    void createTableWidget();
+    QWidget* createCentralWidget();
+    QWidget* createPersistenceWidget();
+    QWidget* createDataAboutBookWidget();
+    QWidget* createButtonsWidget();
 };
 
 
